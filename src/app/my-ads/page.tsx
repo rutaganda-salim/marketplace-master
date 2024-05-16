@@ -14,9 +14,7 @@ export default async function MyAdsPage() {
   }
   await connect();
   const adsDocs = await AdModel.find({userEmail:email});
-  const gmail =()=>{
-    
-  }
+  
   return (
     <div className="container my-8 mx-auto">
       <h1 className="text-2xl font-bold mb-4">Your ads</h1>
